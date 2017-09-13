@@ -6,8 +6,8 @@
 
 %define installable_zip 1
 
-%include rpm/dhd/droid-hal-device.inc
-
 %define straggler_files \
 /charger_otterx\
 %{nil}
+
+%include rpm/dhd/droid-hal-device.inc
